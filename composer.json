@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "classpreloader/classpreloader": "^3.0",
+        "classpreloader/classpreloader": "3.2.1",
         "classpreloader/console": "^2.0",
         "composer/composer": "^1.0",
         "fzaninotto/faker": "~1.4",
