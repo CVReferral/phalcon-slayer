@@ -1,0 +1,30 @@
+{
+    "name": "clarity/test-suite",
+    "description": "",
+    "license": "MIT",
+    "homepage": "http://github.com/ps-clarity/test-suite",
+    "support": {
+        "issues": "https://github.com/ps-clarity/test-suite/issues",
+        "source": "https://github.com/ps-clarity/test-suite"
+    },
+    "authors": [
+        {
+            "name": "Daison Carino",
+            "email": "daison12006013@gmail.com"
+        }
+    ],
+    "require": {
+        "behat/mink": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Clarity\\TestSuite\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.4-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}

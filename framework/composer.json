@@ -1,0 +1,83 @@
+{
+    "name": "phalconslayer/framework",
+    "keywords": [
+        "skeleton",
+        "boilerplate",
+        "framework",
+        "phalcon",
+        "slayer",
+        "bootstrap"
+    ],
+    "description": "The foundation of Phalcon Slayer",
+    "license": "MIT",
+    "homepage": "http://github.com/phalconslayer/framework",
+    "support": {
+        "issues": "https://github.com/phalconslayer/framework/issues",
+        "source": "https://github.com/phalconslayer/framework"
+    },
+    "authors": [
+        {
+            "name": "Daison Carino",
+            "email": "daison12006013@gmail.com"
+        }
+    ],
+    "require": {
+        "classpreloader/classpreloader": "^3.0",
+        "classpreloader/console": "^2.0",
+        "composer/composer": "^1.0",
+        "fzaninotto/faker": "~1.4",
+        "guzzlehttp/guzzle": "6.1.*",
+        "illuminate/support": "5.2.*",
+        "jenssegers/blade": "^1.0",
+        "paragonie/random_compat": "1.1.*",
+        "league/flysystem": "^1.0",
+        "league/tactician": "^0.6",
+        "mailgun/mailgun-php": "~1.7.2",
+        "monolog/monolog": "^1.15",
+        "robmorgan/phinx": "0.5.*",
+        "swiftmailer/swiftmailer": "^5.4",
+        "symfony/console": "^2.7",
+        "symfony/debug": "^2.7",
+        "symfony/process": "^2.7",
+        "symfony/var-dumper": "^2.7",
+        "tijsverkoyen/css-to-inline-styles": "^1.5",
+        "vlucas/phpdotenv": "^2.0",
+        "psy/psysh": "0.7.*"
+    },
+    "replace": {
+        "clarity/console": "self.version",
+        "clarity/contracts": "self.version",
+        "clarity/exceptions": "self.version",
+        "clarity/facades": "self.version",
+        "clarity/kernel": "self.version",
+        "clarity/lang": "self.version",
+        "clarity/mail": "self.version",
+        "clarity/providers": "self.version",
+        "clarity/services": "self.version",
+        "clarity/support": "self.version",
+        "clarity/test-suite": "self.version",
+        "clarity/util": "self.version",
+        "clarity/view": "self.version"
+    },
+    "require-dev": {
+        "behat/mink": "^1.7",
+        "behat/mink-goutte-driver": "^1.2",
+        "phpunit/phpunit": "^4.8",
+        "mockery/mockery": "^0.9",
+        "fzaninotto/faker": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Clarity\\": "src/Clarity/"
+        },
+        "files": [
+            "src/Clarity/Support/Helpers/init.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.4-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
